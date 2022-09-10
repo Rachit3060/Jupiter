@@ -50,6 +50,7 @@ public class PutIssuer3 extends Utils {
 		String abbreviation=postJS.getString("abbreviation");
 		
 		Assert.assertEquals(abbreviation, "Issuer_Test_123");
+		System.out.println("Change from Dell1");
 //		Assert.assertEquals(AssetName, "104994_Revolver_01");
 	
 	}
